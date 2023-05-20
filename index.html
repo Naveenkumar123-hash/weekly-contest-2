@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly contest-2</title>
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <nav>
+      <div class="one">
+       Library System
+       <a class="right"href="#">Contact us </a>
+       <a class="right"href="#">Log out </a>
+       <a class="right"href="#register">Register</a>
+       <a class="right"href="#books">Books</a>
+      </div>
+    </nav>
+    <div class="parent">
+      <h1 id="books">Books</h1>
+      <table class="child" border="1">
+        <thead>
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>1.</td>
+            <td>
+              <a href="#"target="_blank"id="c1">The Hunger Games</a>
+              <table class="table-2" border="1">
+                    <tr>
+                    <td>Publication Date:2008</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count:374</td>
+                    </tr>
+                    <tr>
+                    <td>ISBN:9780439023528</td>
+                   </tr>
+              </table>
+            </td>
+            <td>Suzanne Collins</td>
+            <td class="c2">fiction</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+              <td>2.</td>
+              <td>
+              <a href="#"target="_blank"id="c1">Harry Potter and the Order of the Phoenix</a>
+              <table class="table-2" border="1">
+                    <tr>
+                    <td>Publication Date:2003</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count:912</td>
+                    </tr>
+                    <tr>
+                    <td>ISBN:9781408865439</td>
+                   </tr>
+              </table>
+            </td>
+            <td>J.K. Rowling</td>
+            <td class="c2">Adventure</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>
+              <a href="#"target="_blank"id="c1">The Book Thief</a>
+              <table class="table-2" border="1">
+                    <tr>
+                    <td>Publication Date:2006</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count:552</td>
+                    </tr>
+                    <tr>
+                    <td>ISBN:9780375842207</td>
+                   </tr>
+              </table>
+            </td>
+            <td>Markus Zusak</td>
+            <td class="c2">Historical Wars</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>
+              <a href="#"target="_blank"id="c1">Pride and Prejudice</a>
+              <table class="table-2" border="1">
+                    <tr>
+                    <td>Publication Date:1813</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count:279</td>
+                    </tr>
+                    <td>ISBN: 9780679783268</td>
+                   </tr>
+              </table>
+            </td>
+            <td>Jane Austen</td>
+            <td class="c2">Literature</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>
+              <a href="#"target="_blank"id="c1">The Chronicles of Narnia</a>
+              <table class="table-2" border="1">
+                    <tr>
+                    <td>Publication Date:1956</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count:767</td>
+                    </tr>
+                    <tr>
+                    <td>ISBN:9780007421671</td>
+                   </tr>
+              </table>
+            </td>
+            <td>C.S. Lewis</td>
+            <td class="c2">fantasy</td>
+            <td>Available</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="registerform">
+      <h1 id="register">Register</h1>
+      <form>
+        <div>
+          <label for="fname"width:100%>First Name</label><br>
+          <input type="name"id="fname"name="fname">
+        </div>
+        <br>
+        <div>
+          <label for="lname">Last Name</label><br>
+          <input type="name"id="lname"name="lname"required>
+          </div>
+          <br>
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email"id="email"name="email"required>
+          </div>
+          <br>
+        <div>
+          <label for="dob">Date of Birth</label><br>
+          <input type="date"id="dob"name="dob"required>
+        </div>
+        <br>
+        <div>
+          <label for="age">Age</label><br>
+          <input type="number"id="age"name="age"min="5"max="100"required>
+        </div>
+        <br>
+        <div>
+          <label for="password">Password</label><br>
+          <input type="password"id="password"name="password"required>
+        </div>
+        <br>
+        <div>
+          <label for="confirm password">Confirm Password</label><br>
+          <input type="password"id="confirm password"name="confirm password"required>
+        </div>
+        <br></br>
+        <button id="b1"type="submit">Register</button>
+      </form>
+    </div>
+</body>
+</html>

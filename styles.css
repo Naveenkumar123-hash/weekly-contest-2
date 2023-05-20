@@ -1,0 +1,43 @@
+
+    body {
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    }
+    .one{
+        background-color:black;
+        top:0px;
+        color:white;
+        position: sticky;
+        width: 100%;
+        padding:10px;
+    }
+    .right{
+        padding-right: 25px;
+        float:right;
+        text-decoration: none;
+        color:white;
+    }
+    th{background-color:olivedrab}
+    .child{
+        background-color: aquamarine;
+    }
+    .parent,.registerform{
+        margin: 10px;}
+    .child,.table-2{
+        border-collapse:collapse;
+        text-align: left;
+        width:100%;
+    }
+    #b1{
+        background-color:black;
+        color:white;
+    }
+    input{
+        width:100%;
+        background-color: aquamarine;
+    }
+    button{width:100%;}
+   
+
+    
