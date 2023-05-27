@@ -1,0 +1,82 @@
+
+body{margin:0px;
+     padding:0px;
+     height:1500px;
+     background-color: black;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;}
+    html{
+        scroll-behavior: smooth;
+    }
+.container{
+    background-color: black;
+    color:white;
+    width:100%;
+    height:100px;
+}
+.main{color:white;}
+.container{display:flex;
+          align-items:center;
+          justify-content:space-between;
+          width:100%;
+ }
+ .container .two{display:flex;}
+ .one,.three{padding:0px 30px;
+            font-size:25px;}
+ .container .two div{padding:0px 40px;}
+ .container .three a{padding-left:20px;
+                text-decoration: none;
+                color:white;}
+.container-1 img{width:100%}
+.container-2 .content,.image{width:50%;
+               }
+.context{display: flex;
+    padding: 50px 100px;
+                 }
+.container-3 .text{text-align: center;
+               margin:5px;}
+.container-3 #c1{padding:0px 100px;
+              }
+.session{display: flex;
+         justify-content: center;}
+.session .content-1{width:25%;
+                    }
+.container-4{display: grid;
+             grid-template-columns: repeat(2,50%);
+            justify-content: space-between;
+            padding:10px 10px;
+        }
+.container-4 .c1{margin-left: 5px;}
+.container-1 .text{text-align: center;
+margin:10px 0px;}
+.image img{         width:450px;
+                    height:200px;
+}
+.context .image img{margin-left:75px;}
+.content{margin-right: 50px;}
+.container-5{display:flex;
+padding:50px 57px;}
+.container .a1,.a2{width:50%;}
+.a1 #h1{padding:0px 25px}
+.a1{background-image: url('../HTML/images/WhatsApp\ Image\ 2023-05-27\ at\ 7.12.41\ PM.jpeg');
+    width:45%;
+    margin:0px 93px;}
+#i-1{text-align:center;
+margin: 10px;}
+.a2{display:inline;
+    }
+.a2.material-icons{margin-right: 5px;}
+#c3{padding:5px;}
+#c4{margin-left:12px;}
+.copywrite a{color:white;
+            display:inline-block;
+        }
+.copywrite a{text-decoration: none;}
+.copywrite{text-align: end;
+            margin-right: 200px;
+           }
+        
+.container .two a{text-decoration: none;
+                   color:white;}

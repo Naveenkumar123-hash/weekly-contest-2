@@ -4,174 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly contest-2</title>
-    <link rel="stylesheet"href="styles.css">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Ruda:wght@400;500;600;700&family=Wix+Madefor+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <nav>
-      <div class="one">
-       Library System
-       <a class="right"href="#">Contact us </a>
-       <a class="right"href="#">Log out </a>
-       <a class="right"href="#register">Register</a>
-       <a class="right"href="#books">Books</a>
-      </div>
+    <nav class="container">
+        <div class="one">
+            Pizza Restaurant
+        </div>
+        <div class="two">
+              <div class="one-1"><a href="#about">ABOUT US</a>
+                </div>
+                <div class="one-2"><a href="#menu">MENU</a>
+                </div>
+                <div class="one-3">
+                  BLOGS
+                </div>
+                <div class="one-4">
+                  TESTIMONY
+                </div>
+                <div class="one-5"><a href="#i-1">FIND US</a>
+                </div>
+                <div class="one-6">
+                  OUR TEAM
+                  </div>
+        </div>
+        <div class="three">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+        </div>
     </nav>
-    <div class="parent">
-      <h1 id="books">Books</h1>
-      <table class="child" border="1">
-        <thead>
-          <tr>
-            <th>Book ID</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Genre</th>
-            <th>Availability</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>1.</td>
-            <td>
-              <a href="#"target="_blank"id="c1">The Hunger Games</a>
-              <table class="table-2" border="1">
-                    <tr>
-                    <td>Publication Date:2008</td>
-                    </tr>
-                    <tr>
-                    <td>Page Count:374</td>
-                    </tr>
-                    <tr>
-                    <td>ISBN:9780439023528</td>
-                   </tr>
-              </table>
-            </td>
-            <td>Suzanne Collins</td>
-            <td class="c2">fiction</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-              <td>2.</td>
-              <td>
-              <a href="#"target="_blank"id="c1">Harry Potter and the Order of the Phoenix</a>
-              <table class="table-2" border="1">
-                    <tr>
-                    <td>Publication Date:2003</td>
-                    </tr>
-                    <tr>
-                    <td>Page Count:912</td>
-                    </tr>
-                    <tr>
-                    <td>ISBN:9781408865439</td>
-                   </tr>
-              </table>
-            </td>
-            <td>J.K. Rowling</td>
-            <td class="c2">Adventure</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td>
-              <a href="#"target="_blank"id="c1">The Book Thief</a>
-              <table class="table-2" border="1">
-                    <tr>
-                    <td>Publication Date:2006</td>
-                    </tr>
-                    <tr>
-                    <td>Page Count:552</td>
-                    </tr>
-                    <tr>
-                    <td>ISBN:9780375842207</td>
-                   </tr>
-              </table>
-            </td>
-            <td>Markus Zusak</td>
-            <td class="c2">Historical Wars</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td>
-              <a href="#"target="_blank"id="c1">Pride and Prejudice</a>
-              <table class="table-2" border="1">
-                    <tr>
-                    <td>Publication Date:1813</td>
-                    </tr>
-                    <tr>
-                    <td>Page Count:279</td>
-                    </tr>
-                    <td>ISBN: 9780679783268</td>
-                   </tr>
-              </table>
-            </td>
-            <td>Jane Austen</td>
-            <td class="c2">Literature</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td>
-              <a href="#"target="_blank"id="c1">The Chronicles of Narnia</a>
-              <table class="table-2" border="1">
-                    <tr>
-                    <td>Publication Date:1956</td>
-                    </tr>
-                    <tr>
-                    <td>Page Count:767</td>
-                    </tr>
-                    <tr>
-                    <td>ISBN:9780007421671</td>
-                   </tr>
-              </table>
-            </td>
-            <td>C.S. Lewis</td>
-            <td class="c2">fantasy</td>
-            <td>Available</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="registerform">
-      <h1 id="register">Register</h1>
-      <form>
-        <div>
-          <label for="fname"width:100%>First Name</label><br>
-          <input type="name"id="fname"name="fname">
-        </div>
-        <br>
-        <div>
-          <label for="lname">Last Name</label><br>
-          <input type="name"id="lname"name="lname"required>
-          </div>
-          <br>
-        <div>
-          <label for="email">Email</label><br>
-          <input type="email"id="email"name="email"required>
-          </div>
-          <br>
-        <div>
-          <label for="dob">Date of Birth</label><br>
-          <input type="date"id="dob"name="dob"required>
-        </div>
-        <br>
-        <div>
-          <label for="age">Age</label><br>
-          <input type="number"id="age"name="age"min="5"max="100"required>
-        </div>
-        <br>
-        <div>
-          <label for="password">Password</label><br>
-          <input type="password"id="password"name="password"required>
-        </div>
-        <br>
-        <div>
-          <label for="confirm password">Confirm Password</label><br>
-          <input type="password"id="confirm password"name="confirm password"required>
-        </div>
-        <br></br>
-        <button id="b1"type="submit">Register</button>
-      </form>
-    </div>
+    <main class="main">
+        <section class="container-1" >
+            <img src="https://as1.ftcdn.net/v2/jpg/01/33/61/72/1000_F_133617244_dWdivRXwoLVzowl1kn3iFP9JGcuNd8n6.jpg">
+            <div class="text" id="about">
+                <u>ABOUT US</u>
+            </div>
+          </section>
+          <section class="container-2">
+            <div class="context">
+               <div class="content">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+               </div>
+               <div class="image">
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.pNuzms1cKZfR29fXJAhT7wHaCe&pid=Api&P=0&h=180">
+               </div>
+            </div>
+          </section>
+          <section class="container-3">
+                  <div class="text"id="menu"><u>MENU</u></div>
+                  <p id="c1">
+                    Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.  
+                  </p>
+                  <div class="container-4">
+                  <div class="session">
+                    <div class="image-1">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                    </div>
+                    <div class="content-1">
+                      <div  class="c1">
+                      <h1>LOREM IPSUM</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="session">
+                    <div class="image-1">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                    </div>
+                    <div class="content-1">
+                      <div  class="c1">
+                        <h1>LOREM IPSUM</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="session">
+                    <div class="image-1">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                    </div>
+                    <div class="content-1">
+                      <div  class="c1">
+                        <h1>LOREM IPSUM</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="session">
+                    <div class="image-1">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                    </div>
+                    <div class="content-1">
+                      <div  class="c1">
+                        <h1>LOREM IPSUM</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="session">
+                    <div class="image-1">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                    </div>
+                    <div class="content-1">
+                      <div  class="c1">
+                        <h1>LOREM IPSUM</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="session">
+                      <div class="image-1">
+                          <img src="https://tse3.mm.bing.net/th?id=OIP.d6RGpcxLtnh-EhQckou0nwHaE8&pid=Api&P=0&h=180">
+                      </div>
+                      <div class="content-1">
+                        <div  class="c1">
+                          <h1>LOREM IPSUM</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                      </div>
+                  </div>
+                  </div>
+          </section>
+          <section>
+            <div id="i-1"><u>FIND US</u></div>
+               <div class="container-5">
+                     <div class="a1">
+                      <div class="a2">
+                        <p id="h1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text e.</p>
+                        <i class="material-icons" style="font-size:36px">place</i><span>Location XYZ, XYZ Colony, Delhi</span>
+                        <p id="c3">✆123-456-789</p>
+                        <P id="c4"> 987-654-321</p>
+                      </div>
+                      </div>
+                     <div class="a2">
+                        <img src="../HTML/images/WhatsApp Image 2023-05-27 at 7.12.38 PM.jpeg"width="500px">
+                     </div>
+                </div>
+          </section>
+    </main>
+    <footer>
+      <div class="copywrite">
+          <p id="m1">✉️</p>
+          <a href="#">mailid@gmail.com</a>
+          <p>✆123-456-789</p>
+          <P> 987-654-321</p>
+      </div>
+    </footer>
 </body>
 </html>
